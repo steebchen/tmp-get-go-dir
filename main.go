@@ -7,7 +7,7 @@ import (
 
 func main() {
 	ctx := build.Default
-	pkg, err := ctx.Import("github.com/prisma/photongo", ".", build.FindOnly)
+	pkg, err := ctx.Import("github.com/steebchen/tmp-get-go-dir", ".", build.FindOnly)
 	if err != nil {
 		panic(err)
 	}
